@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 // Fonts sizes
 const double heading1 = 48;
 const double heading2 = 32;
@@ -16,9 +14,3 @@ const double iconSize = 24;
 // Raduis
 const double reduisBoxSize = 40.0;
 const double reduisButtonSize = 20.0;
-
-// ignore: todo
-//todo: make this colors
-Color headingColor = Color.fromARGB(255, 230, 82, 63);
-Color paragraphColor = Color.fromARGB(255, 9, 25, 49);
-
