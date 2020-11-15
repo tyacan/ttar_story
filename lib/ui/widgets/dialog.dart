@@ -1,7 +1,8 @@
 // ByMuathye; call it as : handleClickMe(context)
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+// import 'package:flutter/cupertino.dart';
+// import 'package:flutter/material.dart';
+// import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import './../../bootstrap/loader.dart';
 
 Future<void> handleClickMe(BuildContext context) async {
   return showDialog<void>(
@@ -17,7 +18,7 @@ Future<void> handleClickMe(BuildContext context) async {
                 radius: 70,
                 child: ClipOval(
                   child: Image.asset(
-                    'images/3c70615dc280f465f59ba8d81c2ae69c.png',
+                    profileImage,
                     height: 150,
                     width: 150,
                     fit: BoxFit.cover,

@@ -96,7 +96,7 @@ Widget profileView() {
               radius: 70,
               child: ClipOval(
                 child: Image.asset(
-                  'images/3c70615dc280f465f59ba8d81c2ae69c.png',
+                  profileImage,
                   height: 150,
                   width: 150,
                   fit: BoxFit.cover,

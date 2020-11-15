@@ -28,7 +28,7 @@ class PDFViewState extends State<PDFView> {
   @override
   void initState() {
     _pdfController = PdfController(
-      document: PdfDocument.openAsset(this._pdfPath ?? 'assets/ttar_story.pdf'),
+      document: PdfDocument.openAsset(this._pdfPath ?? ttarStoryPdf),
     );
     super.initState();
   }
