@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import './../bootstrap/loader.dart';
 
 Color backgroundColor = Color.fromARGB(255, 9, 25, 49);
 Color backgroundAccentColor = Color.fromARGB(255, 33, 63, 76);
