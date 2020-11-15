@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import './colors.dart';
+import './../bootstrap/loader.dart';
 
 BoxDecoration activeBoxDecoration = BoxDecoration(
   border: Border.all(color: lineColor, width: 1),
