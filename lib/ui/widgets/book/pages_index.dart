@@ -134,8 +134,8 @@ class PagesNumbersRow extends StatelessWidget {
         onTap: () async {
           // * todo: Jump to specified page
           key.currentState.jumpToPage(i);
-          SharedPreferences myPrefs = await SharedPreferences.getInstance();
-          myPrefs.setInt('last_page', i);
+          // SharedPreferences myPrefs = await SharedPreferences.getInstance();
+          // myPrefs.setInt('last_page', i);
           print(i.toString());
         },
         child: Container(

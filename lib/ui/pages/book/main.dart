@@ -10,8 +10,8 @@ class Book extends StatefulWidget {
 }
 
 class _BookState extends State<Book> {
-  Future<SharedPreferences> myPrefs = SharedPreferences.getInstance();
-  Future<int> current;
+  // Future<SharedPreferences> myPrefs = SharedPreferences.getInstance();
+  // Future<int> current;
 
   @override
   Widget build(BuildContext context) {
